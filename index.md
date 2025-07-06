@@ -48,5 +48,5 @@ title: Multilogue Format
   </div>
 
   <!-- 5. The End Marker -->
-  <p class="multilogue-fin">FIN</p>
+  <p class="multilogue-end">FIN</p>
 </div>
