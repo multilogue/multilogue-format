@@ -31,10 +31,11 @@
 
 // 3. Dramatis Personae: A styled list of characters.
 .dramatis-personae {
-  margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem; // Adds space between the list and the line
+  margin-bottom: 2.5rem;  // Adds space *after* the line
 
-  // Corrected: Added 'solid' and using a theme variable for color
-  border-bottom: 1px solid lightgrey;
+  // Use a theme variable for the border color for consistency and dark-mode compatibility.
+  border-bottom: 1px solid var(--color-border-default);
 
   h3 {
     font-weight: 600; // Slightly bolder than normal text.
