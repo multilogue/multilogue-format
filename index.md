@@ -34,7 +34,6 @@ title: Multilogue Format
     <p class="utterance">
       <span class="speaker">Socrates</span>I am surprised that the warder was willing to listen to you.
     </p>
-    <!-- Example of a complex utterance with structured parts -->
     <p class="utterance">
       <span class="speaker">Socrates</span>
       <span class="part-label">Thoughts:</span> I must weigh my duty to the state against my own life. To flee would be to nullify the laws I have agreed to live by.
@@ -42,7 +41,5 @@ title: Multilogue Format
       <span class="part-label">Speech:</span> I cannot, in justice, betray the agreements and commitments I have made.
     </p>
   </div>
-
-  <!-- 5. The End Marker -->
   <p class="multilogue-end">FIN</p>
 </div>
