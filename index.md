@@ -33,7 +33,7 @@ title: Multilogue Format
       <span class="speaker">Socrates</span>How early?
     </p>
     <p class="utterance">
-      <span class="speaker">Crito</span>Early dawn.
+      <span class="speaker">Crito</span>Besides, Socrates, I do not think that what you are doing is just, to give up your life when you can save it, and to hasten your fate as your enemies would hasten it, and indeed have hastened it in their wish to destroy you. [d] Moreover, I think you are betraying your sons by going away and leaving them, when you could bring them up and educate them. You thus show no concern for what their fate may be. They will probably have the usual fate of orphans. Either one should not have children, or one should share with them to the end the toil of upbringing and education. You seem to me to choose the easiest path, whereas one should choose the path a good and courageous man would choose, particularly when one claims throughout one’s life to care for virtue.
     </p>
     <p class="utterance">
       <span class="speaker">Socrates</span>I am surprised that the warder was willing to listen to you.
