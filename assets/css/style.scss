@@ -68,17 +68,19 @@
 // to ensure styles are applied consistently. The long-term fix is to correct the JS.
 .utterance,
 .dialogue {
-  // "starting with a tab" is interpreted as indenting the entire paragraph block.
-  padding-left: 2em;
   margin-bottom: 1rem; // Creates the separation between utterances.
+  text-indent: 1rem; // Tab-like indent for dialogue
+  line-height: var(--base-line-height, 1.5); // Inherit Primer's line height
 
   // The speaker's name: bold small-caps with a colon.
   .speaker {
-    font-weight: 600;
+    font-weight: 550;
     font-variant: small-caps;
+    color: var(--color-text-primary, #24292e);
 
     &::after {
       content: ": ";
+      margin-right: 0.25rem; // Small spacing after colon
     }
   }
 
