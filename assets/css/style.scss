@@ -32,10 +32,9 @@
 // 3. Dramatis Personae: A styled list of characters.
 .dramatis-personae {
   padding-bottom: 1.5rem;
-  margin-bottom: 2.5rem;
+  margin-bottom: 1.5rem;
 
-  /* --- DEBUGGING: Make the border thick and red to ensure it's visible --- */
-  border-bottom: 3px solid red;
+  border-bottom: 1px gray;
 
   h3 {
     font-weight: 600; // Slightly bolder than normal text.
