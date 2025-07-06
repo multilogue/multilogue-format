@@ -35,7 +35,7 @@
   margin-bottom: 1.5rem;
 
   // Corrected: Added 'solid' and using a theme variable for color
-  border-bottom: 1px solid var(--color-border-default);
+  border-bottom: 2px solid grey;
 
   h3 {
     font-weight: 600; // Slightly bolder than normal text.
