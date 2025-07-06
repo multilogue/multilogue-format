@@ -40,7 +40,7 @@ title: Multilogue Format
     </p>
     <!-- Example of a complex utterance with structured parts -->
     <p class="utterance">
-      <span class="speaker">Socrates</span><br/>
+      <span class="speaker">Socrates</span>
       <span class="part-label">Thoughts:</span> I must weigh my duty to the state against my own life. To flee would be to nullify the laws I have agreed to live by.<br/>
       <span class="part-label">Judgement:</span> Therefore, the argument of the Laws is more compelling. I must remain.<br/>
       <span class="part-label">Speech:</span> I cannot, in justice, betray the agreements and commitments I have made.
