@@ -1,0 +1,12 @@
+plugins:
+  - jekyll-relative-links
+  - jekyll-seo-tag
+relative_links:
+  enabled: true
+  collections: true
+include:
+  - README.md
+  - LICENSE.md
+
+title: Multilogue Format
+description: Multilogue Format
