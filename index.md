@@ -1,6 +1,6 @@
 ---
 layout: home
-title: {{ site.machine.name }}
+title: Multilogue Format
 ---
 
 <div class="multilogue-container">
