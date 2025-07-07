@@ -10,3 +10,7 @@ include:
 
 title: Multilogue Format
 description: Multilogue Format
+
+machine:
+  name: Multilogue Format
+  verb: Formatting
