@@ -1,0 +1,34 @@
+---
+layout: default
+---
+<div class="multilogue-container">
+    <h2 class="multilogue-title">{{ page.title }}</h2>
+
+    {%- if page.introduction -%}
+    <p class="multilogue-introduction">
+        {{ page.introduction }}
+    </p>
+    {%- endif -%}
+
+    {% comment %}
+    Dynamically generate the Dramatis Personae section if a cast is defined.
+    {% endcomment %}
+    {%- if page.cast_of_characters and page.cast_of_characters.size > 0 -%}
+    <div class="dramatis-personae">
+        <h3>Dramatis Personae:</h3>
+        <ul>
+            {%- for character in page.cast_of_characters -%}
+            <li>
+                <span class="name">{{ character.name }}</span> - {{ character.description }};
+            </li>
+            {%- endfor -%}
+        </ul>
+    </div>
+    {%- endif -%}
+
+    <div class="conversation">
+        {{ content }}
+    </div>
+
+    <p class="multilogue-end">FIN</p>
+</div>
