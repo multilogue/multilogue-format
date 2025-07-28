@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Figure 35 Diagram (Corrected)</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 17px;
+            line-height: 1.4;
+        }
+        .diagram-container {
+            position: relative;
+            width: 750px;
+            height: 550px;
+            margin: 20px;
+        }
+        .text-block {
+            position: absolute;
+            white-space: nowrap;
+        }
+        #block1 { top: 20px; left: 20px; }
+        #block2 { top: 200px; left: 20px; }
+        #block3 { top: 140px; left: 340px; }
+        #block4 { top: 20px; left: 520px; }
+        #block5 { top: 490px; left: 560px; }
+        #figure-label { top: 370px; left: 380px; }
+
+        /* --- ARROWS --- */
+        .arrow {
+            position: absolute;
+            box-sizing: border-box;
+        }
+        /* Arrow 1: Top-Left -> Middle */
+        #arrow1-path {
+            top: 107px;
+            left: 200px;
+            width: 140px;
+            height: 47px;
+            border-left: 1px solid black;
+            border-bottom: 1px solid black;
+        }
+        #arrow1-path:after {
+            content: '';
+            position: absolute;
+            right: -8px;
+            bottom: -5px;
+            border-top: 5px solid transparent;
+            border-bottom: 5px solid transparent;
+            border-left: 8px solid black;
+        }
+        /* Arrow 2: Bottom-Left -> Middle */
+        #arrow2-path {
+            top: 207px;
+            left: 200px;
+            width: 140px;
+            border-top: 1px solid black;
+        }
+        #arrow2-path:after {
+            content: '';
+            position: absolute;
+            right: -8px;
+            top: -5px;
+            border-top: 5px solid transparent;
+            border-bottom: 5px solid transparent;
+            border-left: 8px solid black;
+        }
+        /* Arrow 3: Middle -> Bottom-Right Area */
+        #arrow3-path {
+            top: 247px;
+            left: 450px;
+            width: 95px;
+            height: 230px;
+            border-left: 1px solid black;
+            border-bottom: 1px solid black;
+        }
+        /* Arrow 4: Top-Right -> Bottom-Right Area */
+        #arrow4-path {
+            top: 90px;
+            left: 580px;
+            height: 390px;
+            border-left: 1px solid black;
+        }
+        #arrow4-path:after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: -4px;
+            border-left: 5px solid transparent;
+            border-right: 5px solid transparent;
+            border-top: 10px solid black;
+        }
+    </style>
+</head>
+<body>
+
+<h3>Rendered HTML (Corrected)</h3>
+<div class="diagram-container">
+    <!-- Text Blocks -->
+    <div id="block1" class="text-block">I expect that<br>you desire that<br>you conform<br>on condition that<br>I will conform</div>
+    <div id="block2" class="text-block">I desire that<br>I conform<br>on condition that<br>you will conform</div>
+    <div id="block3" class="text-block">I desire that<br>I conform<br>on condition that<br>you expect that<br>I will conform</div>
+    <div id="block4" class="text-block">I expect that<br>you expect that<br>I will conform</div>
+    <div id="block5" class="text-block">I conform</div>
+    <div id="figure-label" class="text-block">Figure 35</div>
+    <!-- Arrows -->
+    <div id="arrow1-path" class="arrow"></div>
+    <div id="arrow2-path" class="arrow"></div>
+    <div id="arrow3-path" class="arrow"></div>
+    <div id="arrow4-path" class="arrow"></div>
+</div>
+
+</body>
+</html>
